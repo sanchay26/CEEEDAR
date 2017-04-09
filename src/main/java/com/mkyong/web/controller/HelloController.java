@@ -11,7 +11,7 @@ public class HelloController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView getData() {
 
-		ModelAndView model = new ModelAndView("hello");
+		ModelAndView model = new ModelAndView("home");
 	
 		return model;
 
