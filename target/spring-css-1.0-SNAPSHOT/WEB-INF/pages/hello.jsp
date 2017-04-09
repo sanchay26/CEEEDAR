@@ -14,10 +14,11 @@
     <link href="<c:url value="/resources/css/blur.css" />" rel="stylesheet">
     <link href="<c:url value="/resources/css/footer.css" />" rel="stylesheet">
     <link href="<c:url value="/resources/css/carousel.css" />" rel="stylesheet">
+    <link href="<c:url value="/resources/semantic/dist/semantic.min.css" />" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="./semantic/dist/semantic.min.js"></script>
-    <script src="carousel.js"></script>
+    <script src="<c:url value="/resources/js/carousel.js" />"></script>
     <style>
         .container {
             width: 90%;
@@ -44,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="movie.png" alt="Team Cedar"></a>
+            <a class="navbar-brand" href="#"><img src="/resources/img/movie.png" alt="Team Cedar"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -52,7 +53,7 @@
 
             <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
-                    <a class="team-name" href="#"> Team Cedar</a>
+                    <a class="team-name" href="#"> TEAM CEDAR</a>
                     <input type="text" class="form-control search-bar" placeholder="Search">
                     <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span>
                     </button>
@@ -348,19 +349,19 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="hero_ExclusiveFeaturette_TheBelkoExperiment_Video.jpg" alt="Chania" width="460" height="345">
+                <img src="/resources/img/hero_ExclusiveFeaturette_TheBelkoExperiment_Video.jpg" alt="Chania" width="460" height="345">
             </div>
 
             <div class="item">
-                <img src="hero_Infographic_BestPictureNominees.jpg" alt="Chania" width="460" height="345">
+                <img src="/resources/img/hero_Infographic_BestPictureNominees.jpg" alt="Chania" width="460" height="345">
             </div>
 
             <div class="item">
-                <img src="hero_Interview_KongSkullIsand_JordonVogt.jpg" alt="Flower" width="460" height="345">
+                <img src="/resources/img/hero_Interview_KongSkullIsand_JordonVogt.jpg" alt="Flower" width="460" height="345">
             </div>
 
             <div class="item">
-                <img src="hero_Junket_GetOut_Video.jpg" alt="Flower" width="460" height="345">
+                <img src="/resources/img/hero_Junket_GetOut_Video.jpg" alt="Flower" width="460" height="345">
             </div>
         </div>
 

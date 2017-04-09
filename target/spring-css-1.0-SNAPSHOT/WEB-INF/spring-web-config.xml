@@ -22,10 +22,11 @@
 		</property>
 	</bean>
 
-	<mvc:resources mapping="/resources/**" location="/resources/theme1/"  cache-period="31556926"/>
-	<!-- 
-	<mvc:resources mapping="/resources/**" location="/WEB-INF/mytheme1/" />
- 	-->
+	<mvc:resources mapping="/resources/**" location="/resources/theme1/" />
+
+	<!--<mvc:resources mapping="/resources/**" location="/resources/semantic" />-->
+	<!--<mvc:resources mapping="/resources/**" location="/resources/img" />-->
+
  
 	<mvc:annotation-driven />
 	
