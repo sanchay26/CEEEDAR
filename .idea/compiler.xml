@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="CEEEDAR" />
         <module name="spring-css" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CEEEDAR" target="1.7" />
       <module name="spring-css" target="1.7" />
     </bytecodeTargetLevel>
   </component>
